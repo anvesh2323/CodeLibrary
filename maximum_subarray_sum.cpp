@@ -19,7 +19,8 @@ int maxSubArraySum(int a[], int size)
 
 int main()
 {
-    int a[] = {-2, -2, 5, -1, -3, 1, 7, -3};
+    // int a[] = {-2, -2, 5, -1, -3, 1, 7, -3};
+    int a[] = {-1,-2,-3,-4,-5};
     int n = sizeof(a) / sizeof(a[0]);
     int max_sum = maxSubArraySum(a, n);
     cout << "Maximum contiguous sum is " << max_sum;
